@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <img src="https://www.ucundinamarca.edu.co/images/facultades/titulos/sistemas//sistemas.jpeg">
+    <hr>
+</head>
+
+<body>
+    <h1>Programa de Ingeniría de Sistemas</h1>
+    <h4>Asignaturas del Programa</h4>
+    <ul>
+        <li><a href="https://blog.openclassrooms.com/es/2017/09/11/que-es-el-desarrollo-web/">Desarrollo Web</a></li>
+        <li><a href="https://www.sas.com/es_co/insights/analytics/data-mining.html">Mineria de Datos</a></li>
+        <li><a
+                href="https://desarrollarinclusion.cilsa.org/tecnologia-inclusiva/que-es-un-sistema-operativo/#:~:text=Un%20sistema%20operativo%20es%20un,placa%20de%20red%2C%20entre%20otros.">Sistemas
+                Operativos</a></li>
+    </ul>
+    <hr>
+    <h3>Perfil del Programa</h3>
+    <p>Un profesional en Ingeniería de Sistemas es un profesional global; referente en temas de tecnología
+        y ciencia para la solución de problemas reales. Es un ente transversal capaz de apoyar diversos procesos en lo
+        que respecta al área de ingeniería y matemáticas aplicadas. Es un ser capaz de proponer soluciones a problemas
+        en pequeña y gran escala. Su formación, le permite, también, ser líder en temas tecnológicos y científicos.
+    </p>
+    <h4>Asignaturas Primer Semestre</h4>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Asignaturas</th>
+                <th>Créditos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matemáticas Básicas</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Lógica Matemática</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Fundamentos Algorítmicos</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Introducción a la ing. De Sistemas</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Electiva de humanidades I</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Metodología de la investigación</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Total Créditos</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h3>Registro de Datos</h3>
+    <label>Apellidos: </label>
+    <input type="text" name="apellidos" placeholder="Charris Bolaño">
+    <label>Nombres: </label>
+    <input type="text" name="nombres" placeholder="Robinson David">
+    <br>
+    <label>Tipo de Documento: </label>
+    <select name="documento">
+        <option value="cc">Cedúla de Ciudadanía</option>
+        <option value="ti">Tarjeta de Identidad</option>
+        <option value="pasaporte">Pasaporte</option>
+        <option value="ce">Cedúla de Extrangería</option>
+    </select>
+    <br>
+    <label>Número de Documento: (Sin puntos)</label>
+    <input type="number" name="numDoc" placeholder="123456789">
+    <br>
+    <label>Sexo: </label>
+    <input type="radio" name="sexo1" value="mujer"><label style="color: darkslategray;">Femenino</label>
+    <input type="radio" name="sexo2" value="hombre"><label style="color: darkslategray;">Masculino</label>
+    <input type="radio" name="sexo3" value="otro"><label style="color: darkslategray;">Otro</label>
+    <br>
+    <label>Fecha de Nacimiento: </label>
+    <input type="date">
+    <br>
+    <label>Número de Teléfono: </label>
+    <input type="number" name="telefono" placeholder="3022774850">
+    <br>
+    <label>Dirección: </label>
+    <input type="text" name="direccion" placeholder="Carrera 7 # 6-80">
+    <br>
+    <label>Departamento: </label>
+    <select name="departamento">
+        <option>Atlántico</option>
+        <option>Magdalena</option>
+        <option>Bólivar</option>
+        <option>Cauca</option>
+        <option>Cundinamarca</option>
+    </select>
+    <br>
+    <label>Cudad: </label>
+    <input type="text" placeholder="Santo Tomás">
+    <br>
+    <label>Correo Electrónico: </label>
+    <input type="text" placeholder="robinson21@correo.com">
+    <br><br>
+    <button>Enviar</button>
+</body>
+
+</html>
